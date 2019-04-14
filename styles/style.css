@@ -9,8 +9,7 @@ h1 {
 h1 {
     margin: 0;
     padding: 20px 0;    
-    color: #00539F;
-    text-shadow: 3px 3px 1px black;
+    color: #66FCF1;
 }
 img {
     display: block;
@@ -20,9 +19,10 @@ p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+    color: #C5C6C7
 }
 html {
-    background-color: #006989;
+    background-color: #1F2833;
 }
 body {
     width: 900px;
