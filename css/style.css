@@ -4,8 +4,8 @@
 
 html {
     font-size: 16px;
-    background-color: #9795ef;
-    background-image: linear-gradient(344deg, #9795ef 0%, #9769F2 74%);
+    background-color: #F8B9E9;
+    background-image: linear-gradient(344deg, #F8B9E9 0%, #9769F2 74%);
     font-family: 'Poiret One', cursive;
 }
 
@@ -17,19 +17,22 @@ body {
 }
 
 h1 {
-    font-size: .80rem;
-    padding: 1rem 1rem 0;
+    font-size: 2rem;
+    padding: 0rem 1rem 0;
+    margin: 0;
 }
 
 h2 {
+    font-size: .8rem;
     margin: 0;
     padding: 0 1rem;
 }
 
 h3 {
-    font-size: .65rem;
+    font-size: 1.3rem;
     padding: 0 1rem;
     margin: 0;
+    padding: 0 15rem;
 }
 
 header {
@@ -42,11 +45,15 @@ img {
 }
 
 p {
+    color: #dfdfdf;
+    opacity: 0.85;
     font-size: 1rem;
     padding: 0 15rem;
 }
 
 .about-me-list {
+    color: #dfdfdf;
+    opacity: 0.85;
     padding: 0;
     list-style-type: circle;
     font-size: 1rem;
@@ -65,12 +72,12 @@ svg {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin: 3rem 0 0 0;
+    margin: 3.5rem 0 0 0;
 }
 
 .social-links li {
     list-style-type: none;
-    padding: 0 1rem;
+    padding: 0 .7rem;
 }
 
 .body-content {
