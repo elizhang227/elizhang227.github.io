@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/city-scape.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 36px;
   }
 }
@@ -191,13 +191,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 20px;
   width: 85%;
 }
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -741,9 +741,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#portfolio #portfolio-wrapper {
+/* #portfolio #portfolio-wrapper {
   padding-right: 15px;
-}
+} */
 
 #portfolio #portfolio-flters {
   padding: 0;
@@ -774,7 +774,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 300px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
@@ -783,7 +782,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item a {
   display: block;
-  margin-right: 15px;
 }
 
 #portfolio .portfolio-item img {
@@ -823,6 +821,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item:hover img {
   top: -30px;
+}
+
+@media (max-width: 430px) {
+  #portfolio img {
+    max-width: 275px;
+  }
 }
 
 /* Team Section
