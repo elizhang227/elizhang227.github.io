@@ -960,6 +960,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
+  margin: 6px;
   background: #333;
   color: #fff;
   line-height: 1;
