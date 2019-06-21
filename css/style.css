@@ -488,6 +488,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
 }
 
+.portfolio-title {
+  font-size: 32px;
+  color: #2dc997;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
 .section-header .section-description {
   text-align: center;
   padding-bottom: 20px;
@@ -513,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #2dc997;
   font-weight: 700;
   font-size: 32px;
 }
@@ -577,7 +586,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about img {
   max-height: 500px;
-  padding: 0 0 0 100px;
+  margin-left: 100px;
+  border-radius: 50px;
 }
 
 @media (max-width: 991px) {
@@ -697,7 +707,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-title {
-  color: #A69349;
+  color: #2dc997;
   font-size: 28px;
   font-weight: 700;
 }
@@ -726,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #2dc997;
 }
 
 #call-to-action .cta-btn:hover {
@@ -782,6 +792,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item a {
   display: block;
+}
+
+#portfolio .portfolio-item a:hover {
+  color: #2dc997;
 }
 
 #portfolio .portfolio-item img {
@@ -849,6 +863,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-icon {
   font-size: .95rem;
+}
+
+.video-container {
+  overflow: hidden;
 }
 
 /* Team Section

@@ -34,6 +34,8 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!-- =======================================================
     Theme Name: Regna
@@ -64,7 +66,7 @@
           <li><a href="#services">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <!-- <li><a href="#team">Team</a></li> -->
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -80,7 +82,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -110,7 +112,18 @@
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">Few Words About Me</h2>
             <p>
-              Hi there! I'm Eli. My dream job is to be a billionaire, but a software developer is a close second. I was a fresh college graduate with no plans in pursuing a career in the subject I studied. Bills needed to be paid so I worked as front desk agent at a hotel, but being there made me realize that I needed to do something mentally stimulating and challenging which has lead me to a new found love for coding. I am currently enrolled at DigitalCrafts, a coding bootcamp, at the Atlanta Tech Village. Take a look around and don't forget to connect - whether that's a tweet, email or linkedin!
+              Hi there! I'm Eli. I'm from New York City born and raised but currently residing in Atlanta. 
+              I was a fresh college graduate with no plans in pursuing a career in the subject I studied. 
+              Bills needed to be paid so I worked as front desk agent at a hotel, 
+              but being there made me realize that I needed to do something mentally stimulating
+              and challenging which has lead me to a new found love and passion for coding.
+            </p>
+            <p> 
+              I am currently enrolled at a coding bootcamp called DigitalCrafts located at the Atlanta Tech Village.
+              When I am not typing away in VSCode I am either playing some sort of game whether that be on console, pc or mobile, or going to the gym and wondering why I'm making no progress!
+            </p>
+            <p>
+              Take a look around and don't forget to connect — whether that's a tweet, email or on the battlefield!
             </p>
 
             <!-- <div class="icon-box wow fadeInUp">
@@ -125,16 +138,16 @@
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div> -->
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+            <!-- <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
+            </div> -->
 
           </div>
 
           <div class="col-lg-6  order-lg-2 order-1 wow fadeInRight aboutme-image">
-            <img src="https://vignette.wikia.nocookie.net/all-worlds-alliance/images/2/21/EscanorRender.png/revision/latest?cb=20180825072059"></img>
+            <img src="/img/me.png"></img>
           </div>
         </div>
 
@@ -219,10 +232,11 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">Resume</h3>
-            <p class="cta-text"> Before coding, I worked at various jobs from delivery drivers to a hotel front desk agent. Feel free to download my resume!</p>
+            <p class="cta-text"> Feel free to grab a copy of my resume and see what I was up to before I become a developer!</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Download</a>
+            <a class="cta-btn align-middle" href="/Eli-Zhang-Resume.pdf" download="Eli-Zhang-Resume.pdf">download</a>
+            <!-- <a class="downlad-btn" href="/resume/Web_Developer_Ronito_Jr_Salamanca_Resume.pdf" download="Web_Developer_Ronito_Jr_Salamanca_Resume">Download Resume</a> -->
           </div>
         </div>
 
@@ -235,7 +249,7 @@
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
+          <h3 class="portfolio-title">Portfolio</h3>
           <p class="section-description">Group projects completed at DigitalCrafts as well as personal projects.</p>
         </div>
         <div class="row d-flex justify-content-center">
@@ -252,9 +266,9 @@
 
         <div class="container portfolio-showcase">
             <div class="row card-group">
-              <div class="d-flex col-md-4">
+              <div class="d-flex col-md-4 portfolio-item filter-python">
                 <div class="card mb-4 shadow-sm">
-                  <div class="card-img-top">
+                  <div class="card-img-top video-container">
                     <video class="video1">
                       <source src="/videos/othello.mp4" type="video/mp4">
                       Your browser does not support the video tag.
@@ -262,10 +276,10 @@
                   </div>
                   <div class="d-flex flex-column card-body">
                     <h5 class="card-title"><b>Othello</b></h5>
-                    <p class="card-text">A 2d side scrolling deep sea diving game created with pygame and built in python.</p>
+                    <p class="card-text">A 2-player turn-based game like chess where you use specific strategies to outwit your opponent.</p>
                     <div class="d-flex flex-grow-1 justify-content-between align-items-end mt-2">
                       <div class="btn-group">
-                        <a href="https://github.com/rjsalamanca/DangerousDiving" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
+                        <a href="https://github.com/elizhang227/pygame" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
                       </div>
                       <div class="ml-2">
                         <i class="icon fab fa-python"></i>
@@ -275,34 +289,37 @@
                 </div>
               </div>
 
-              <div class="d-flex col-md-4">
+              <div class="d-flex col-md-4 portfolio-item filter-javascript">
                 <div class="card mb-4 shadow-sm">
                   <div class="card-img-top">
-                    <video class="video1">
+                    <video class="video2">
                       <source src="/videos/ss3.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div class="d-flex flex-column card-body">
                     <h5 class="card-title"><b>SonoSong</b></h5>
-                    <p class="card-text">A 2d side scrolling deep sea diving game created with pygame and built in python.</p>
+                    <p class="card-text">Get all of your favorite movie soundtrack for free all conveniently located in one place.</p>
                     <div class="d-flex flex-grow-1 justify-content-between align-items-end mt-2">
                       <div class="btn-group">
-                        <a href="https://github.com/rjsalamanca/DangerousDiving" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
+                        <a href="https://github.com/elizhang227/sonosong" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
+                        <a href="http://ec2-18-221-169-73.us-east-2.compute.amazonaws.com/index.html" target="_blank" class="btn btn-sm btn-outline-secondary">Live Site</a>
                       </div>
                       <div class="ml-2">
-                        <i class="icon fab fa-python"></i>
+                        <i class="icon fab fa-js-square"></i>
+                        <i class="icon fab fa-html5"></i>
+                        <i class="icon fab fa-css3-alt"></i>
                       </div>                    
                     </div>
                   </div>
                 </div>
               </div>
             
-              <div class="d-flex col-md-4">
+              <div class="d-flex col-md-4 portfolio-item filter-node">
                   <div class="card mb-4 shadow-sm">
                     <div class="card-img-top">
-                      <video class="video1">
-                        <source src="/videos/ss3.mp4" type="video/mp4">
+                      <video class="video3">
+                        <source src="/videos/cc.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
@@ -311,10 +328,16 @@
                       <p class="card-text">A 2d side scrolling deep sea diving game created with pygame and built in python.</p>
                       <div class="d-flex flex-grow-1 justify-content-between align-items-end mt-2">
                         <div class="btn-group">
-                          <a href="https://github.com/rjsalamanca/DangerousDiving" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
+                          <a href="https://github.com/elizhang227/budget-app" target="_blank" class="btn btn-sm btn-outline-secondary">Github</a>
+                          <a href="http://ec2-3-19-73-90.us-east-2.compute.amazonaws.com/" target="_blank" class="btn btn-sm btn-outline-secondary">Live Site</a>
                         </div>
                         <div class="ml-2">
-                          <i class="icon fab fa-python"></i>
+                          <i class="icon fab fa-express"></i>
+                          <i class="icon fab fa-js-square"></i>
+                          <i class="icon fab fa-node"></i>
+                          <i class="icon fab fa-html5"></i>
+                          <i class="icon fab fa-css3-alt"></i>
+                          <i class="icon fab fa-bootstrap"></i>
                         </div>                    
                       </div>
                     </div>
@@ -391,11 +414,11 @@
             </div>
 
             <div class="social-links d-flex justify-content-center">
-              <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="https://google.com/" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://linkedin.com/in/zhang-eli" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/" class="twitter"><i class="icon fab fa-twitter"></i></a>
+              <a href="https://facebook.com/" class="facebook"><i class="icon fab fa-facebook"></i></a>
+              <a href="https://instagram.com/" class="instagram"><i class="icon fab fa-instagram"></i></a>
+              <a href="https://google.com/" class="github"><i class="icon fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/zhang-eli" class="linkedin"><i class="icon fab fa-linkedin"></i></a>
             </div>
 
           </div>
