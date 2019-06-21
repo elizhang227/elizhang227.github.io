@@ -824,8 +824,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video1{
+  background-image: url('../img/othello.png');
+  width:100%;
+  background-size:cover;
+}
+
+.video2{
   background-image: url('../img/ss.png');
-  max-width: 800px;
+  width:100%;
+  background-size:cover;
+}
+
+.video3 {
+  background-image: url('../img/ss.png');
   width:100%;
   background-size:cover;
 }
