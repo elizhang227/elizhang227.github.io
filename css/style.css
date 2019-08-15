@@ -694,6 +694,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 3em;
 }
 
+.react-icon {
+  font-size: 3em;
+}
+
 #services .text-center {
   padding: 2rem;
 }
